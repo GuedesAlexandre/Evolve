@@ -5,8 +5,17 @@ import { Link } from 'react-router-dom';
         const Planisphère = () => {
             return (
                 <>
+
                 <h2 className='Voyage'>Prenez part au voyage qui fera évoluer votre culture !</h2>
-                <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
+                <div id="projet"></div>
+                
+                
+                
+                
+                
+                
+                
+                                <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh" }}>
                 <svg width="1435" height="839" viewBox="0 0 1435 839" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_23_13)">
 <path d="M681.75 417.794L681.641 417.826L681.274 418.021L681.065 418.089L680.875 418.123L680.726 418.109L680.643 417.994L680.652 417.819L680.618 417.663L680.589 417.579L680.643 417.351L680.765 417.228L680.935 417.128L681.202 417.164L681.767 417.31L681.885 417.448L681.887 417.538L681.783 417.688L681.75 417.794Z" fill="white"/>

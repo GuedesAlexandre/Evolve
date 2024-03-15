@@ -5,6 +5,7 @@ import Github from '../assets/Git.svg';
 const About = () => {
   return (
    <>
+   <div id="about"></div>
    <h2 className='Voyage'> About</h2>
    <p className="About-desc">
    Bienvenue sur notre passionnant projet de découverte culturelle, une aventure immersive qui vous transporte à travers le monde pour explorer les richesses de différentes cultures. Votre destination?  La fascinante Somalie, une terre riche en histoire, en traditions et surtout riche d’une grande culture musicale aujourd’hui oubliée. Au cœur de cette expérience unique, nous vous présentons un objet mystère qui incarne l'essence même de la culture musical somalienne. Karl Estayo l'a capturé en trois dimensions à travers son impressionnante représentation en 3D grâce au logiciel Blender. Alexandre Guedes s’est ensuite occupé de développer cette application web afin de pouvoir y intégrer cette magnifique représentation 3D.

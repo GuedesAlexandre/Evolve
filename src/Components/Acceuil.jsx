@@ -4,6 +4,7 @@ import Header from "./Header";
 import Kaban from "./Kaban";
 import Planisphère from "./Planisphère";
 import About from "./About";
+import Footer from "./Footer";
 
 
 const Acceuil = () => {
@@ -28,7 +29,7 @@ const Acceuil = () => {
       </div>
     <Planisphère/>
     <About/>
-    
+    <Footer/>
  
 
     </>
