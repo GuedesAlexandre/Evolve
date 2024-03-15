@@ -5,6 +5,7 @@ const Kaban = () => {
   return (
     <>
     <Header/>
+    <h2 className='Voyage'>Le Kaban : Symbole d'une culture basé sur la mixité</h2>
     <div className="sketchfab-embed-wrapper" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <iframe
         title="kaban4"

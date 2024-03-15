@@ -139,11 +139,18 @@ margin-top: 1%;
       transform: translate(0, -5px);
     }
   }
+  .Voyage{
+    margin-top:2%;
+text-align: center;
+    font-family: 'Aerial', sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+  }
 
   .Arrow{
     display: flex;
     justify-content: center;
-    margin-top: 15%;
+    margin-top: 10%;
 
     animation: floating 2s infinite;
   }
@@ -164,3 +171,50 @@ margin-top: 1%;
   animation: floating 2s infinite;
 }
   
+.About-desc{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-top:1%;
+padding-left:10%;
+padding-right:10%;
+
+  
+  font-size: 16px;
+  font-weight: 100;
+  text-align: justify;
+}
+.Photo{
+  margin-top:3%;
+  display: flex;
+  justify-content: center;
+  gap:10%
+
+}
+.profile> .photo-profil{
+  width:350px;
+  height:auto;
+}
+.profile > .nom{
+  font-size: 55px;
+  font-family: 'Aerial', sans-serif;
+ 
+}
+
+.profile >span{
+  font-size: 25px;
+  font-family: 'Satochi', sans-serif;
+}
+.profile{
+  display: flex;
+  flex-direction: column;
+}
+.Git{
+  margin-top: 5px;
+ width:50px;
+ height:auto;
+}
+.About-desc{
+  font-family: 'Satochi', sans-serif;
+  line-height: 1.5;
+}

@@ -2,6 +2,8 @@ import React from "react";
 import "../App.css";
 import Header from "./Header";
 import Kaban from "./Kaban";
+import Planisphère from "./Planisphère";
+import About from "./About";
 
 
 const Acceuil = () => {
@@ -24,7 +26,9 @@ const Acceuil = () => {
 
         </div>
       </div>
-
+    <Planisphère/>
+    <About/>
+    
  
 
     </>
