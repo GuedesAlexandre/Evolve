@@ -8,7 +8,7 @@ import { useRef, useEffect } from 'react';
 
 
 const Scene = () => {
-    const fbx = useFBX("../../src/Models/kaban.fbx");
+    const fbx = useFBX("src/Components/kaban.fbx"); 
     const fbxRef = useRef();
     const { camera } = useThree();
     useEffect(() => {
