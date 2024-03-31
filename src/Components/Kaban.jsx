@@ -3,6 +3,15 @@ import Header from "./Header";
 import Header2 from "./Header2";
 import Footer from "./Footer";
 import '../index.css';
+import FBXObject from "./render";
+import { Canvas } from "react-three-fiber";
+import { PerspectiveCamera } from "@react-three/drei";
+
+
+import { Environment, OrbitControls} from "@react-three/drei";
+import { Suspense } from "react";
+import Scene from "./render";
+
 
 
 const Kaban = () => {
@@ -12,32 +21,16 @@ const Kaban = () => {
       <h2 className="Voyage">
         Le Kaban : Symbole d'une culture basée sur la mixité
       </h2>
-      <div
-        className="sketchfab-embed-wrapper"
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          height: "100%",
-          marginTop: "20px",
-        }}
-      >
-        <iframe
-          title="kaban4"
-          frameBorder="0"
-          allowFullScreen
-          mozAllowFullScreen="true"
-          webkitAllowFullScreen="true"
-          allow="autoplay; fullscreen; xr-spatial-tracking"
-          xr-spatial-tracking
-          execution-while-out-of-viewport
-          execution-while-not-rendered
-          web-share
-          width="1200"
-          height="700"
-          src="https://sketchfab.com/models/9c432db0942e4c26b9e2be4cfb217c8b/embed?autospin=1&autostart=1&preload=1"
-        ></iframe>
-      </div>
+      <Canvas style={{ height: "900px", width : "500px;" }}>
+      <PerspectiveCamera position={[10, 50, 10]} /> 
+      <pointLight position={[10, 10, 10]} />
+        <Suspense fallback={null}>
+          <Scene />
+          <OrbitControls  />
+        
+        </Suspense>
+      </Canvas>
+     
       <p
         style={{
           fontFamily: "poppins",
